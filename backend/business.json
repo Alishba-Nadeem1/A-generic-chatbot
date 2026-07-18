@@ -1,0 +1,23 @@
+{
+  "company_name": "Alishba and co.",
+  "about": "We are an online retail business selling electronics and accessories, offering customer support for orders, refunds, cancellations, and product inquiries.",
+  "business_hours": "Monday to Saturday, 9 AM to 9 PM. Closed on Sundays and occasional holidays",
+  "policies": {
+    "refund_policy": "Refunds are processed within 5-7 business days after the returned item is received and approved. Items must be returned within 14 days of delivery, unused and in original packaging.",
+    "cancellation_policy": "Orders can be cancelled free of charge within 24 hours of placing them. After that, cancellation is only possible if the order hasn't shipped yet.",
+    "shipping_policy": "Standard delivery takes 3-5 business days within major cities, and 5-7 business days for other areas. Express shipping (1-2 days) is available at extra cost."
+  },
+  "products": [
+    {"id": "P001", "name": "Wireless Bluetooth Earbuds", "price": "PKR 3,500", "stock": "In stock"},
+    {"id": "P002", "name": "USB-C Fast Charger (65W)", "price": "PKR 2,200", "stock": "In stock"},
+    {"id": "P003", "name": "Smartwatch Fitness Band", "price": "PKR 5,800", "stock": "Low stock"},
+    {"id": "P004", "name": "Portable Power Bank (10000mAh)", "price": "PKR 2,800", "stock": "In stock"},
+    {"id": "P005", "name": "Laptop Sleeve 15-inch", "price": "PKR 1,500", "stock": "Out of stock"}
+  ],
+  "mock_orders": {
+    "ORD1001": {"status": "Shipped", "eta": "2 days", "items": "Wireless Bluetooth Earbuds"},
+    "ORD1002": {"status": "Processing", "eta": "4 days", "items": "Smartwatch Fitness Band"},
+    "ORD1003": {"status": "Delivered", "eta": "Delivered on July 10, 2026", "items": "USB-C Fast Charger"},
+    "ORD1004": {"status": "Cancelled", "eta": "N/A", "items": "Laptop Sleeve 15-inch"}
+  }
+}
